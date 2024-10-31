@@ -46,10 +46,10 @@ This Terraform project creates an S3 bucket with replication, versioning, lifecy
 
 ### Prerequisites
 
-- Ensure Terraform is installed (v1.0+).
-- AWS CLI configured with appropriate permissions.
-- Install `tfsec` for security checks.
-
+- **Terraform**: v1.0 or newer
+- **AWS CLI**: Configured with sufficient permissions
+- **Tfsec**: Install `tfsec` for security checks in the `Makefile`
+  
 ### Commands
 
 Use the Makefile to run Terraform commands:
